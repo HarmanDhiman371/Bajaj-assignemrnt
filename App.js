@@ -9,7 +9,7 @@ app.post('/bfhl', (req, res) => {
   const dob = "20042004";
 
   const user_id = `${full_name.toLowerCase()}_${dob}`;
-  const email = "harmanjeet371be22@.com";
+  const email = "harmanjeet371.be22@chitkara.edu.in";
   const roll_number = "2210990371";
 
   const isNumeric = (val) => /^[0-9]+$/.test(val);
