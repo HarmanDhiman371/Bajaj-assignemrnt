@@ -65,6 +65,9 @@ app.post('/bfhl', (req, res) => {
 
   res.status(200).json(response);
 });
+app.get('/', (req, res) => {
+  res.send("✅ Bajaj Assignment API is live. Use POST /bfhl");
+});
 
 app.listen(process.env.PORT || 3000, () => {
   console.log('Server running on port 3000');
